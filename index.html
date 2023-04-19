@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">NY<span class="letter-s">S</span>TRÖM</h1>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Dam</a></li>
+          <li><a class="main-nav-link" href="#">Herr</a></li>
+          <li><a class="main-nav-link" href="#">Barn</a></li>
+          <li><a class="main-nav-link nav-rea" href="#">Rea</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-medlem">
+        <div class="medlem">
+          <div class="text-box">
+            <h1 class="heading">BLI MEDLEM</h1>
+            <ul class="medlem-description">
+              <li>Du samlar poång på alla dina köp</li>
+              <li>Fri frakt över 500 kr</li>
+              <li>Gratis personal styling</li>
+              <li>Medlemsexklusiva erbjudanden</li>
+            </ul>
+          </div>
+          <div class="image-box">
+            <img
+              class="medlem-img"
+              src="/img/milad-fakurian-K4FgcyyFXC8-unsplash.jpg"
+              alt="hänging clothes"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h3 class="heading-form">
+                Fyll i uppgifterna nedan och bli medlem idag.
+              </h3>
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="förnamn">Förnamn</label>
+                  <input id="förnamn" type="text" required />
+                </div>
+                <div>
+                  <label for="efternamn">Efternamn</label>
+                  <input type="text" name="" id="efternamn" required />
+                </div>
+                <div>
+                  <label for="ålder">Ange ålder</label>
+                  <input type="number" min="18" max="120" id="ålder" required />
+                </div>
+                <div>
+                  <label for="email">E-post</label>
+                  <input id="email" type="email" placeholder="" required />
+                </div>
+
+                <button class="btn">Bli medlem nu</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman holding mobile"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid grid--5-cols">
+        <div class="logo-col">
+          <h1 class="footer-logo">NY<span class="letter-s">S</span>TRÖM</h1>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">Copyright &copy; 2027 av NyströmAB</p>
+        </div>
+        <div class="adress-col">
+          <p class="footer-heading">Kontakt oss</p>
+          <address class="contacts">
+            <p class="adress">Drottninggatan 411 111 21 Stockholm</p>
+            <p>
+              <a class="footer-link" href="tel:010345237654">010345237654</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@nyström.se"
+                >hello@nyström.se</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Konto</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Skapa konto</a></li>
+            <li><a class="footer-link" href="#">Logga in </a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Om Nyström</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Om oss</a></li>
+            <li><a class="footer-link" href="#">Jobba på Nyström</a></li>
+            <li><a class="footer-link" href="#">Hållbarhet</a></li>
+            <li><a class="footer-link" href="#">Press</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Behöver du hjälp</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Vanliga frågor</a></li>
+            <li><a class="footer-link" href="#">Retur& reklamation</a></li>
+            <li><a class="footer-link" href="#">Leveransvillkor</a></li>
+            <li><a class="footer-link" href="#">Faktura& betalning</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
