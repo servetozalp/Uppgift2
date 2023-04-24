@@ -115,6 +115,36 @@ body {
   padding: 0 4.8rem;
 }
 
+.nyström:link,
+.nyström:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+.nyström:hover,
+.nyström:active {
+  color: #333;
+  
+}
+
+/* Nyckelram för roterande animation */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Stil för hover-effekt med animation */
+.nyström:hover {
+  animation: rotate 1s linear; /* Använd keyframe-animation för roterande effekt */
+}
+  
+
+
+
 /***************************/
 /* NAVIGATION */
 /***************************/
