@@ -51,6 +51,7 @@ SPACING SYSTEM (px)
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -58,6 +59,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /***************************/
@@ -113,6 +115,7 @@ body {
   background-color: #fdf2e9;
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .nyström:link,
@@ -124,7 +127,6 @@ body {
 .nyström:hover,
 .nyström:active {
   color: #333;
-  
 }
 
 /* Nyckelram för roterande animation */
@@ -141,9 +143,6 @@ body {
 .nyström:hover {
   animation: rotate 1s linear; /* Använd keyframe-animation för roterande effekt */
 }
-  
-
-
 
 /***************************/
 /* NAVIGATION */
@@ -153,7 +152,7 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -176,9 +175,7 @@ body {
   color: #d21312;
 }
 
-/***************************/
 /* MOBILE */
-/***************************/
 
 .btn-mobile-nav {
   border: none;
@@ -212,7 +209,7 @@ body {
   padding: 0 3.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 6.4rem;
+  gap: 4.8rem;
   align-items: center;
 }
 
@@ -317,7 +314,7 @@ body {
 /***************************/
 
 .footer {
-  padding: 12.8rem 0;
+  padding: 9.6rem 0;
   border-top: 1px solid #eee;
 }
 
